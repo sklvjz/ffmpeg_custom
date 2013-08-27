@@ -33,7 +33,7 @@
 #include "libavfilter/avfilter.h"
 #include "libavdevice/avdevice.h"
 #include "libswscale/swscale.h"
-#include "libpostproc/postprocess.h"
+//#include "libpostproc/postprocess.h"
 #include "libavutil/avstring.h"
 #include "libavutil/pixdesc.h"
 #include "libavutil/eval.h"
@@ -409,7 +409,7 @@ static void print_all_libs_info(FILE* outstream, int flags)
     PRINT_LIB_INFO(outstream, avdevice, AVDEVICE, flags);
     PRINT_LIB_INFO(outstream, avfilter, AVFILTER, flags);
     PRINT_LIB_INFO(outstream, swscale,  SWSCALE,  flags);
-    PRINT_LIB_INFO(outstream, postproc, POSTPROC, flags);
+    //PRINT_LIB_INFO(outstream, postproc, POSTPROC, flags);
 }
 
 void show_banner(void)

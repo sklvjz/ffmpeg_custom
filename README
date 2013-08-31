@@ -10,3 +10,5 @@ FFmpeg README
 ------------
 
 * See the LICENSE file.
+
+sudo apt-get install SDL
